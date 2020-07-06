@@ -1,19 +1,21 @@
 
 
+
+
+
 import zlib
 
-s = "El lenguaje Python is muy bueno para procesamiento de datos"
-t =  zlib.compress(s.encode("utf-8"))
+s = "El lenguaje de Python es muy bueno para el manejo de datos"
+t = zlib.compress(s.encode("utf-8"))
 
-print("Sin compresión")
+
+print("Sin compresion")
 print(s)
 
-print("Con compresión")
+print("Con compresion")
 print(t)
 
-print("Decompresionado")
+
+print("Descomprimido")
 print(zlib.decompress(t))
-
-
-
 
