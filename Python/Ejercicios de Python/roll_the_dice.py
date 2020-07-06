@@ -1,5 +1,6 @@
 
 
+
 import random
 
 valor_minimo = 1
@@ -12,5 +13,5 @@ while juega_otra_vez == "si" or juega_otra_vez == "s":
     print("Los numeros son...")
     print(random.randint(valor_minimo, valor_maximo))
     print(random.randint(valor_minimo, valor_maximo))
-    juega_otra_vez = input("Tira los dados otra vez? ")
+    juega_otra_vez = input("Tira los dados otra vez?")
 
